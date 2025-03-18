@@ -1,17 +1,19 @@
-Config = {}
+Config = {
 
 -- Sounds
-Config.PrinterStartSound = '/assets/sounds/drucker.wav'
-Config.InkLowSound = '/assets/sounds/tinte.wav'
+PrinterStartSound = '/assets/sounds/drucker.wav'
+InkLowSound = '/assets/sounds/tinte.wav'
 
 -- Items
-Config.PrinterInkItem = 'drucker-tinte'
-Config.GreenCardItem = 'greencard'
+PrinterInkItem = 'drucker-tinte'
+GreenCardItem = 'greencard'
 
 -- PIN codes
-Config.Pins = {
+Pins = {
     ['4655'] = {
         menuTitle = 'Greencard drucken',
         document = Config.GreenCardItem,
     },
 }
+
+}    
